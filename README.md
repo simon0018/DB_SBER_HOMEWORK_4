@@ -49,10 +49,10 @@ Database engine в BaseX представляет собой связь межд
 Примеры запросов для базы данных библиотеки:
 Запрос открывает базу данных  и ищет все элементы с именем "book", затем возвращает их.
 
-`
+```
 for $book in doc("books.xml")//book
 return $book
-`
+```
 
 Получить все книги, написанные автором "George Orwell"
 
@@ -258,7 +258,7 @@ return $book
   <published>1813</published>
   <price>6.99</price>
 </book>
-  `
+`
 ## Где найти документацию и пройти обучение 
 https://docs.basex.org/wiki/Documentation
 ## Как быть в курсе происходящего 
